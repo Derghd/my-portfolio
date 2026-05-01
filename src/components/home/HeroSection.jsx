@@ -88,7 +88,7 @@ export default function HeroSection() {
             {/* Main glass panel */}
             <div className="glass-strong rounded-3xl p-3 shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f"
+                src="\images\IMG_20260430_181912.jpg"
                 alt="Design work"
                 style={{ width: "100%", borderRadius: "12px" }}
               />
