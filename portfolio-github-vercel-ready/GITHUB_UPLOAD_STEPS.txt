@@ -1,0 +1,39 @@
+GITHUB UPLOAD STEPS
+
+1. Extract this ZIP.
+2. Open the extracted folder.
+3. You should immediately see:
+   - index.html
+   - package.json
+   - vite.config.js
+   - src
+   - public
+
+4. Go to your GitHub repository.
+5. Click Add file > Upload files.
+6. Drag ALL the items from inside the extracted folder into GitHub.
+   Do NOT drag the folder itself if it creates a nested folder.
+
+Correct GitHub structure:
+my-portfolio/
+  index.html
+  package.json
+  vite.config.js
+  src/
+  public/
+
+Wrong GitHub structure:
+my-portfolio/
+  base44-local-vscode-ready-v2/
+    index.html
+    package.json
+    src/
+
+7. Commit changes.
+8. Go to Vercel and redeploy.
+
+VERCEL SETTINGS
+Framework Preset: Vite
+Install Command: npm install
+Build Command: npm run build
+Output Directory: dist
