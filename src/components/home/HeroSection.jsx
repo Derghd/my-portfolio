@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { ArrowRight, Download, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
-const HERO_IMAGE = 'https://media.db.com/images/public/69f4719cf7fe0120f3b8e695/c6ebcff13_generated_6930ba2f.png';
+const HERO_IMAGE = '/images/IMG_20260430_181912.jpg alt="Project';
 
 export default function HeroSection() {
   return (
