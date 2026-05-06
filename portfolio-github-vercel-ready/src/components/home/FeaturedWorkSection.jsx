@@ -11,7 +11,7 @@ const featuredProjects = [
     type: 'Dementia Aid Product Showcase',
     description: 'A UX/UI project focused on showcasing dementia aid products in a clear, supportive, and accessible way. The project explores how design can help caregivers and users understand assistive products with confidence and empathy.',
     tags: ['UX Research', 'Accessibility', 'Product Showcase', 'Caregiving', 'UI Design'],
-    image: 'https://media.db.com/images/public/69f4719cf7fe0120f3b8e695/686d22073_generated_1627223a.png',
+    image: '/images/HeroIntro.jpg',
   },
   {
     id: 'skillup',
