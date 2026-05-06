@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { ArrowRight, Download, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
-const HERO_IMAGE = '/images/Herointro.jpg';
+const HERO_IMAGE = '/images/HeroIntro.jpg';
 
 export default function HeroSection() {
   return (
@@ -88,7 +88,7 @@ export default function HeroSection() {
             {/* Main glass panel */}
             <div className="glass-strong rounded-3xl p-3 shadow-2xl">
               <img 
-                src="\images\IMG_20260430_181912.jpg"
+                src="\images\HeroIntro.jpg"
                 alt="Design work"
                 style={{ width: "100%", borderRadius: "12px" }}
               />
